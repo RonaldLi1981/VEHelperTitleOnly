@@ -1,0 +1,356 @@
+BLR,[MTA MIB] The default value of MIB ietfPktcSigDevCidMode is dtAsETS
+QA6,[mso] Unable to configure "Public Wi-Fi Network & HS Port Forwarding" settings in GUI  
+QA4,[BSoD]The modem doesn't report eSAFE Host Capability TLV5.18 to CMTS in a Registration Request message.
+QA6,[RDKB][Puma7][MoCA]MoCA privacy can't be enabled/disabled and MoCA password can't be configured via GUI
+QA2,[CT][Security][DDoS] SNMP has no response when wan0 under DS direction IPv4 flooding attack
+QA3&7,"[RDKB]Failed to set 5G WiFi operation mode to a,n, error code 9007 return"
+QA3&7,[RDKB][LG][ATM] TG3492LG dose not support STA weight on load AR01.01.92.01
+QA3&7,[IOT][TG2482] The modem encountered a exception after IOT testing was finished.
+QA4,[Golden_Frequency] Need to give a way to update the list of golden frequencies  through a device software upgrade or via SNMP/TR-069.
+BLR,"[puma7][ring waveform]:set the ring waveform(arrisMtaDevEndPntRingingWaveform.1) to sinusoidal via mta cfg, after remove this setting in mta cfg, modem's behavior is different between reset MTA and reset whole modem."
+QA6,[Puma7] Wrong value of Device.RouterAdvertisement.InterfaceSetting.1.Interface
+QA6, Parameter "Device.DHCPv6.Server.Pool.{i}.Client.{i}.IPv6Address.{i}.IPAddress" not update after change CPE ip address via change DHCPv6 pool.
+QA3&7,[RDKB][LG][ATM] TG3492LG dose not support ATM Distribution Type on load AR01.01.92.01
+BLR,"[Germany]: In 3WC call scenario, off hook warning tone ID is observed, after RingBack tone is stopped."
+QA6,[Puma7][GW] eRouter0 doesn't have IP address after leaving the modem two days and do nothing
+QA2,[TW][Security][DDoS] DS TCP throughput declined when MTA is under DS direction IPv4 flooding attack
+QA6, "YES & NO" button is misaligned in GUI under "Parental Control > Managed Sites/Services > Trusted Computers
+QA6,[34xx][Puma7] Wrong value of Device.RouterAdvertisement.InterfaceSetting.1.Prefixes
+QA2,[Security]UDP port 4567 is open on 192.168.100.3
+QA6,[TWC][Puma6][TR181]The Functions of Advanced Firewall doesn't work when setting via TR181
+QA6, :- Hub 3.0 status overview > Internet icon shows "Access Denied" when DUT is in modem mode
+QA6,Unable to enable MOCA via LAN side login
+QA3&7,[PUMA6][HNC][MTK] Modem failed to auto config 5 AM525
+QA4,[RDKB][KDG] TG3442DE is failed to upgrade to AR01.01.092_010818_70.PC20.10.VKD.7.EU.img when using docsis 3.1 cm config
+QA3&7,[RDKB] WiFi RF coverage of RDKB modem is worse than that of DG3260 with TS9.1.103v
+QA3&7,[Haleakala][Hotspot] Internal error occurred when restore GW to factory defaults
+QA4,[PNM] Mib docsPnmBulkFileControl can be setted to "deleteFile" when an upload is in progress.
+QA6,[Puma7] Sometimes it will return "9002 Internal error" when GPV "Device.".
+QA3&7,[TW]Defaults values for arrisRouterBssNetworkIsolate and arrisRouterBssSecurityMode are different with compliance document
+BLR,"In policy 3, loop voltage is still ON after maintain timer expires, (if reset timer is not 0), before MTA is successfully provisioned, follows a soft reset."
+QA2,[Security]TCP port 8080 is open on GW LAN IPv4 interface
+QA6,Clone 41609 to AR01.01.092.X: [Puma7]The WebGUI format will change from VM's to UPC's automatically after login WebGUI.
+QA3&7,[RDKB][LG][ATM] TG3492LG does not support ATM Traffic Direction and ATM Application on load AR01.01.92.01
+QA6,[CT][UPnP] The value of Cache-control_max-age in HTTP1.1 200ok that sent from GW doesn¡¯t conform to GUI>Advanced>Device discovery>Advertisement period.
+QA4,WiFi LED is Blink Green color when both 2.4G and 5G home private SSID is disabled
+QA6,[Multi-Language]The translation of "usersLoggedIn" is not consistent with <DOCSIS 3.1 DE - Gateway Lanuguage - Version 13>
+QA3&7,[TG1682G/TW] The 2.4G SSID can't be scanned with advanced feature enabled in IOT environment.
+QA6,[Puma7] Device.ManagementServer.ConnectionRequestURL in inform packet and rdkbTR069ClientConnReqUrl.0 should be IPv6 address when TR69 work over IPv6
+QA6,[Multi-Language]The translation of "footerAFTRAddress" and "footerIPv4Address" are not consistent with <DOCSIS 3.1 DE - Gateway Lanuguage - Version 13>
+QA6, : User is able to enter invalid characters for device name > MAC Filtering.
+QA2,[CT][Security][DDoS] WebGUI is not accessible when wan0 is under DS direction UDP flooding attack
+QA6,"[RDKB][34XX] when DNS relay disabled, gateway still forward/response DNS query send to 192.168.0.1"
+QA3&7,[TWC][Puma6]The "arrisRouterBssActive.10103 and 10104" will be disabled automatically after DUT switch to the  secondary ipv4/ipv6 GRE tunnel.
+QA6,Some parameters are not listed in ACS server
+QA6, Some parameter value in Device.MoCA.Interface.{i}.AssociatedDevice.{i}. is different from MIB
+QA6,Device.WiFi.AccessPoint.{I}.AssociatedDevice.{1}.LastDataUplinkRate always display 0 when wifi station connect to DUT via 2.4g.
+BLR,"[DST]: without unrelated CIDDis MIBs in MTA cfg file, MTA cannot display Daylight Saving Timezone time in CallerID."
+QA3&7,[MTK][Band Steering]Sometimes dual band client can NOT be steered to 2.4G from 5G when 5G RSSI < RssiLow-delta.
+QA3&7,[Haleakala][Hotspot] Hotspot didn't work well if hotspot subnet is changed from routedNAT to passThru
+QA6, : ¡°Refresh¡± button is not working on MAC Filtering page.
+QA2,[CT][Security][DDoS] TR69 CWMP port 7547 is filtered on erouter0 when erouter0 is under DS direction IPv4 flooding attack
+QA6,[Puma7]It shouldn't send "DHCP Discover" packet when the gateway perform DHCPv4 Renew via tr69.
+QA4,[10k]Modem run into error state and cannot enter PSM 1x1 mode anymore
+QA4,The modem downgrade/upgrade failed if set arrisCmDoc30SetupTftpBlkSize to 60000 CM configuration file.
+QA3&7,"Clone 41488 to AR01.01.092.X:  : Wi-Fi Security is disabled by default, expected WPA-PSK/WPA2-PSK."
+QA6,[KDG][PUMA7]Walk arrisRouterMib failed at arrisRouterWifiEventLogInfo.51.
+QA2,[Security]TCP port 49155 is open on GW LAN IPv4
+QA3&7,[RDKB][LG][ATM][Veriwave] BSS weight doesn't work
+QA2,[CT][Security][DDoS] Voice call is impacted when MTA is under DS direction UDP flooding attack
+QA2,[PUMA7][Auto Download] LAN to WAN IPv4 traffic is not working after downgrading from AR01.01.090 simg to an old load
+QA6,[RDKB][MIB] It failed to set arrisRouterRDKIpv4LanClientStaticMAC via mib browser
+BLR,[PC20] The mib pktcSigEndPntConfigMaxHookFlash and pktcSigEndPntConfigMinHookFlash couldn't be wrote.
+QA6,"when configure arrisTR69ValidateManagementServerCertificate in CM config file, the MIB can Not persist after CM reboot."
+QA2,[Security]: Telnet\SSH accessible in production builds
+QA3&7,[RDKB] Some devices can't to connect to 5G SSID on TG3452.
+QA3&7,[RDKB][LG][ATM] TG3492LG dose not support ATM Monitoring (Event Logs) on load AR01.01.92.01
+QA6,"[RDKB][Puma7][MoCA]If configure mocaIfPassword.40 via SNMP/cm config file, mocaIfPrivacyEnable.40 is changed into ""true"" automatically"
+QA6,[Puma7][KDG]TR069 turn to abnormal after setting GW provision mode to dual-stack via TLV202.1.
+QA6,"[Language][German]When testing Open the GUI as a CSR user from WAN side, can't open https://CM IP:8443. "
+QA2,[TW][Security][DDoS] WAN host is not pingable from LAN endpoint when modem is under DS direction IPv4 flooding attack
+QA6, Port Mapping function not work when setting parameter "Device.NAT.PortMapping.1.ExternalPort" value to 0 
+QA6, Some texts and WiFi page layout are misaligned in GUI
+QA6,[LGI][all] String "bi_04" and "bi_02" are not displayed as per the  jason file
+QA2,[TW][Security][DDoS] "Kernel panic - not syncing: Out of memory" is logged followed by unexpected reboot when MTA is under DS direction IPv4 flooding attack
+QA4,[NBN][CM8200 P1 and P2][NBN-Perf007] Upstream drops to 100Mbps from 208Mbps intermittently
+QA2,[TW][Security][DDoS] Bulk call is impacted when MTA is under DS direction IPv4 flooding attack
+QA6,"[Puma7]When ACSOverride is 0, the modem can't establish with the ACS after change the acs url via tr69 and reboot the modem."
+QA6,[LGI][PUMA7][MIB] "Generic error" returns when set DNS server ip via MIB rdkbRgIpMgmtDnsServerIp.
+QA6,[DSLite]The IPv4 traceroute with domain name is failed when DSLite is enabled.
+QA6,USB page not loading
+QA6,[Puma7] IPv4 IP Filter function is failed when "SrcPortStart" and "SrcPortEnd" set to "All".
+QA4,The CM can come online with OFDM as the "primary channel" but can't be channel bonding with the other Euro SC-QAM channels on the CISCO CBR8.
+QA3&7,[Haleakala][Hotspot]] "Segmentation fault" found in ARM debugport
+QA6,[TG3492-216] : User is not able to delete the MAC Filtering rules.
+QA3&7,[RDKB][WPS] "Segmentation fault" found in ATOM debugport during WPS testing
+QA6,[Vodafone]Parameters in the Status&Support->Diagnostic Tools page are not persistent over reboot
+QA6,"[Vodafone]Interoperability with web browsers : Internet Explorer,Safari,Edge and Samsung Internet has some issues."
+QA6,[Stress] The connection of CPE will loss after long time data traffic with the phone call
+QA6,[Puma7][GW] Ethernet CPE cannot access wan when change modem ethernet port's speed and duplex without reconnecting ethernet link
+QA6,[Multi-Language]The translation of "WeakPassword" is not consistent with <DOCSIS 3.1 DE - Gateway Lanuguage - Version 13> in German
+QA3&7,[Haleakala]WMM Power Save mode doesn't work as expected.
+QA2,[34xx][Security] TCP port 7547 is open on GW LAN global IPv6
+QA6,[LGI][Language][Spanish]:String "c_53" always displaying in english  instead of Spanish language
+QA6,Cannot replace the certificate into DUT.
+QA6,"[Language][German]When testing 95578 7: LGI_GERMAN_Wireless wizard_001, it has 1 drop and 1 problem on Wireless wizard page. "
+QA6,[Puma7] The default value of some tr181 parameters are not correct on TG3492.
+QA2,[MASTER PUBLIC] [XREF 41144]: Remote CLI access has default login credential for non-Superuser
+QA6,[LGI][UI]:Alignment issue observed in IPV6 port filtering table.
+QA6,After clicked "CANCEL" button under "Parental Control > Managed Devices > Add Blocked Device " GUI page is not redirecting to "Parental Control > Managed Devices" Page
+QA3&7,[RDKB][Dual-Band][Multi-SSID] Upstream UDP flows cause TG3442DE reboot with log "HW_MBOX_KERNEL_ERROR[hwMbox_sendOpcode:1877]: cid 7: timeout expired!" after clients connect to 2.4G and 5G band simultaneously
+QA6, [IE V11] Displayed warning message is misaligned after selecting Security Mode as "open" for both 2.4 & 5GHz Home Wi-Fi Network
+QA6, Configured Guest SSID name is overlapped with Wi-Fi icon under Gateway >Connection > WiFi > GUEST Wi-Fi Network  
+QA4,[10k]Sometimes line1 has not dialtone when modem in PSM 1x1 mode(1/5 times reproduced)
+QA6,"[TG3492]: GUI Modem Mode: Correct status messages not shown when Modem is in registration failure, Network Access denied, Partial services  and  No connectivity states"
+QA2,"[MASTER PUBLIC] [XREF 33406]: Web server's root document directory should be readonly, it can be used as a backdoor"
+BLR,[TG2492-MTA][Germany]: pktcNcsEndPntConfigRingBackTO and pktcNcsEndPntConfigRingingTO mibs default value is showing as 180 secs instead of 120
+QA3&7,"[RDKB]Shutdown surrounded AP, DUT can also get scan result as before."
+QA6,[KDG][PUMA7]WAN MTU restrict doesn't work for DS-lite mode.
+QA3&7,"[Haleakala][Hotspot] Interval of ICMP Ping is 40s, not 30 when the GRE server is unreachable"
+QA2,[CT][Security][DDoS] It takes long for Ethernet LAN endpoint to get IP via DHCP when GW is under DS direction IPv4 flooding attack
+QA3&7,[Haleakala][Hotspot] arrisRouterSoftGreWanFailoverPingCount doesn't take effect when the GRE server is unreachable
+QA4,[PNM] The Mib docsPnmBulkFileEntry can store more than four data files.
+QA3&7,[Haleakala][Hotspot] Value of arrisRouterSoftGreRadiusReAuthInterval.1 is not mapped to arrisRouterRadiusReAuthInterval.10004
+QA6,[TWC][Puma6]The "Device.GRE.Tunnel.401.RemoteEndpoints" can NOT configure with FQDN via TR181.
+QA6,"WEBGUI Private Wireless Basic,Advanced,MAC Filter,Wi-Fi Client Setup Configuration Settings are not getting restore after clicking 'RESTORE Wi-Fi SETTINGS' button under Troubleshooting > Reset / Restore Gateway"
+QA2,[TW][Security][DDoS] WebGUI is not accessible when wan0 is under DS direction UDP flooding attack
+QA6, GPV the Device.DHCPv6.Server.Pool.{i}.Client.{i}.IPv6Address.{i}.PreferredLifetim and ValidLifetime always showing empty.
+QA6,[TG3492-262][LGI][UI]: DMZ page always gives the IP as 0.0.0.0
+QA6,"[LGI] :- Packet loss observed in Ping page,when target IP set as gateway IP"
+QA3&7,[RDKB] The 5G ssid can't be scanned by some devices.
+QA3&7,[RDKB][LG][ATM] The total bss weights can exceed 100 on load AR01.01.92.01
+QA3&7,[RDKB][Dual-Band][Multi-SSID] The downstream UDP traffic of dual-band is not stable and much lower than one band
+QA6,": In Dual mode, CM fails to register to ACS when IPv6 ACS URL is configured with FQDN"
+QA3&7, [RDKB][Band Steering] The Band Steering events MUST be logged into the eventlog table.
+QA6,[Multi-Language]The translation of "IPv6DNSServer" is not consistent with <DOCSIS 3.1 DE - Gateway Lanuguage - Version 13>
+QA3&7,Client is not getting connected to "Other Wi-Fi Network" SSID
+QA3&7,[RDK-B] WiFi Unhandled exception 11 (Segmentation fault) in process /usr/sbin/arris_rpc_server captured
+QA4,Clone 38776 to AR01.01.086.01.x [CM Regression][QOS] LLC filters do NOT work when set LLC filter to ifIndex 2
+QA3&7,[RDKB][LG][ATM] TG3492LG dose not support ATM Wait Threshold on load AR01.01.92.01
+QA2,"[TM8202] The speedtest downstream throughput is about 800Mbps with one 192Mhz OFDM channel and 31 SC-QAM bonding DS channels, does it working as expected or not?"
+QA6,"[IE V11]GUI shows warning message as ""Operation time out, please try again"" after some times when configured all the 2.4GHz or 5GHz Guest WiFi Network parameters same time   "
+QA6,"[LGI][UI]: ¡°WPS error¡± in Dashboard goes off in 420 seconds for Invalid PIN scenario, expected 300 seconds."
+BLR,[CHILE]: No tone is playing after VMWI(+) activation or VMWI(-) Deactivation
+QA3&7,[RDKB][3492][MU-MIMO] MU-MIMO does not work on load AR01.01.93
+BLR,"ppCfgPortLoopCurrent value via snmpset is not persistent after reboot, with germany2 country template. (Behaves different with north American country template)"
+QA2,[34xx][Security]UDP port 53 is open on eRouter-public interface
+QA3&7," [RDKB] WiFi Modem can NOT work well with 1x1 antenna, need to be fixed with this command - echo 0 > /sys/module/CL2400_5g/parameters/g_iwrsmode."
+QA6, Several "Please login first!" warning popup when login time out
+QA3&7,[RDKB]CcspLMlite can start too quickly and spew messages to Atom console
+QA4,[LED]All the LEDs blink 5-6 times before starting the ranging process
+QA4,"[PNM] When provisioning on dual-stack or IPv6 only on Cisco cBR8, modem will get two IPv6 address and can not upload PNM log to TFTP server successfully."
+QA6,[LGI][UI]: ¡°Ignore and Continue¡± option is not observed in DMZ page.
+QA4,"In PSM status to reset the modem, modem will reset continuously can't recover unless AC recover."
+QA6,[RDKB][TG3492] SNMP cannot be accessed on load AR01.01.92.01 when doing ACS configuration by automation
+QA6,[Puma7]Block keyword and URL does not work within the time set by the rules.
+QA4,[TM3402A/NA] Modem should prevent SNMP upgrade when modem in PSM mode.
+QA4,[PNM] The fifth file will not overwrite the first data file.
+QA4,[puma7][KDG]modem can't be accessed via SNMP occasionally
+QA4,The default value of arrisCmDoc30SetupRCPBypass for Telenet is wrong.
+QA6,[LGI][English] Incorrect translation of strings in Wireless Wizard.
+QA6,"[RDKB][34XX] after operate port trigger tables some times, can't create port trigger rule in iptables"
+QA4,"After custID changed, the pscan frequency for Telenet and Virgin will not change."
+QA2,[CT][Security][DDoS] WAN host is not pingable from LAN endpoint when erouter0 is under DS direction IPv4 flooding attack
+QA3&7,[TG1672A/TW]The performance of 5G hotspot throughput is very low. 
+QA6,"[Language][German]When testing 955800: LGI_GERMAN_Just to make sure_003&955802: LGI_GERMAN_Just to make sure_005, there are 2 error on the Reload and Reboot page."
+QA3&7,[RDKB][LG][ATM] TG3492LG dose not support ATM Statistics reporting on load AR01.01.92.01
+QA6,[Multi-Language] "PairSuccess_tt" is not consistent with <DOCSIS 3.1 DE - Gateway Lanuguage - Version 13>
+QA2,[Security] Technician password should be works normally after ssh session disabled within its validity period.
+QA4,clone from 38538[AR01.01.086.01][CM Qos] The mib docsQosPktClassCmInterfaceMask shows wrong value if PcCmInterfaceMaskEncod is not completely set in tlv
+QA6, None of the event logs are not updating in GUI under Troubleshooting > Logs
+QA6,[Puma7] It can't remote access the CM WAN address though the Device.UserInterface.RemoteAccess.Enable is set to true.
+QA4,Ping to XB6 fails when 1518 bytes is used as frame size
+QA6,[LGI][English] DUT can not login on WAN side.
+QA4,[RDK-B] docsIfSigQSignalNoise MIB returns no value
+QA6," In managed service page, strings are overlapped with specific day/time or long service name"
+QA6,[Sanity] Eth interface becomes inactive after continuous US udp traffic in IPv6 bridge mode
+QA2,[CT][Security][DDoS] DS TCP throughput declined when MTA/GW is under DS direction IPv4 flooding attack
+QA6,[OG1600]  CM Events are not displayed under "Device.X_COMCAST-COM_Events.EventLog." 
+QA6,[Login]Sometimes the GUI was forced to logout before time out happened with warning "Session was lost! Please login again"
+QA2,[XREF 41142]: SNMPGET telnet/ssh login password MIB (telnetPassword and sshPassword) shows the clear text
+QA4,[LGI][LED] : Wi-Fi LED status is not in sync with GUI for WPS failure scenario.
+QA6,[RDKB][MIB] It failed to set arrisRouterRDKIpv4LanClientStaticIPAddr via snmpset command
+QA6,[mso/cusadmin] Configured admin password is not getting reset after clicking RESET PASSWORD button under Troubleshooting > Reset / Restore Gateway
+QA2,[MASTER PUBLIC] [XREF 41266]: The default "public/private" community strings should not be supported with snmpv2c.
+QA6,"[LGI][UI]: User is not able to add rule in DHCP page , when ¡°Device name¡± is changed by user from default"
+QA3&7,[RDKB]Disable primary SSID shouldn't disable guest network SSID
+QA6,[TG3452][GW]Parental control->Managed sites function not working for specific time
+QA6,[Puma7] The "Source IP address" and "Destination IP address" always display "All" on the IPv4 port filtering page of the WebGUI.
+QA3&7,"[RDKB] Found ""ASSERT_24g"" ""NXMAC_AC_1_TX_DMA_DEAD_BIT"" and ""Failed to attach to hostapd"" in ATOM, then modem auto-reboot, then 2.4G didn't work, there was no interface wlan0_0 and no process hostapd-wlan0_0"
+QA6,[TWC][Puma6]DUT will not online success when an invalid ACS URL is configured via TLV11 in the CM config file.
+QA4,[downgrade upgrade] upgrade via cfg using docsDev mib failed.
+QA6,[LGI]:Cancel test button is disabled under PING page
+QA2,[Security]TCP Port 80 is open on eRouter-public IPv6/IPv4 interface
+QA6,[RDKB][Puma7][MoCA]Long term TCP/UDP traffic will always be broken and can not be established again unless reboot the DUT
+QA6, : No mechanism to uncheck the radio button for particular entry in the attached device table in MAC filtering.
+QA6,TG3492:[LGI] [UI]: ¡°MAC Filter List¡± get update only after clicking on Refresh button under HOME -> ADVANCED SETTINGS -> MAC FILTERING
+BLR,"[DST]: Standard Timezone Time calculation is wrong when Standard Timezone in pktcEUERSTCIDDisDSTInfo.0 contains negative integer, like ""PST-8""."
+QA4, The DS and US can't update the status automatically when change the CMTS to partial services
+QA6,[puma7][KDG]V6 Parental control block site by keyword/url will be failed if V6 firewall set to disabled.
+BLR,[CHILE]:Confirmation tone Freq/cadence is not playing correctly.
+QA2,[MASTER PUBLIC] [XREF 41093]: telnet/ssh can be enabled directly via SNMP without giving any password validation such as arrisCmDoc30AccessTelnetPassword
+QA6,[LGI][UI] : User is able to create IPv4 Port filtering rules with reserved port numbers.
+QA6,[TWC][Puma6]The value of Device.Firewall.Level.{i}.DefaultPolicy can NOT be writable.
+QA4,[RDK-B] Segmentation faults in upstream_manager observed during RF cut Torture test
+QA6,[RDKB][34xx] the value of ifMtu.2/3/4/48/49/50/80 are wrong
+QA2,[Soak] [Puma7] Modem's WAN SNMP and PING access doesn't work after 10 hours soak tests.
+QA6,[mso] Displayed "warning message" is misaligned when selected Mode as "802.11 b/g/n" under Gateway > Connection > WiFi > Private Wireless Basic Settings.
+QA2,[Soak] [Puma7] Modem lost the CM IP  MTA IP and eRouter IP after 2.7 days soak test.
+QA6,[Vodafone]The Info displayed in the "Change Password" page(WiFi Change Password) is not suitable to the accepted input.
+QA6,[Puma6]The default value of Device.Firewall.Chain.{i}.Alias  should not be empty.
+QA2,[34xx][Security] TCP port 8181 is open on GW LAN global IPv6/IPv4
+QA6,[GW]Walk "arrisRouterMib" via snmp will get generic error.
+QA6,[GW][DSlite]arrisRouterDSLiteWanLSNATAddr will be overrided by DHCP option64 after modem reset.
+QA4,TG862G/CT with the load TS0901103M2AE can't be online if can't get response from ToD Server.
+QA2,[Soak] [Puma5] TG852G/CT can't registered after 9 hours soak tests.
+QA3&7,[Haleakala][Hotspot] Spectrum Wi-Fi SSIDs still broadcast when primary/secondary GRE tunnels are down
+QA2,[Security]UDP port 123 is open on GW LAN
+QA6,[SBG8300] The third default NTP servers should be 'tick.ucla.edu'
+QA3&7,[SBG8300] Unable to connect 5 GHz Wi-Fi network
+QA2,[VDF][Security]192.168.100.1 should be accessable in full bridge mode
+QA3&7,Clone 41847 to AR01.01.086.X The Hotspot and Guest network function is broken on AR01.01.091 load
+QA2,[Remote access][Mediacom] Remote access via WAN GW IP should be limited after 15 minutes later.
+QA4, The modem can't retrieve back to full bonded mode immediatly after recover AC power.
+QA3&7,[RDKB] A device can't connect to the 5G Wi-Fi in IOT testing.
+QA3&7,[IOT][TG2482] Most devices dis-associated due to OOM in IOT Real Application Testing with advanced features enabled (issue occurred before kicking off data traffic run)?
+QA6,[LGI][T¨¹rkce] Can¡¯t find c_fi58 and c_fi59 in Advertisement Page
+QA2,[TW][Security][DDoS] Internet surfing from LAN client fails when modem is under DS direction IPv4 flooding attack
+QA6,[Multi-Language]The translation of "VoiceStatusLineInactive" is inaccurate
+QA2,"[Security]: In DPM mode, On enabling Telnet/SSHServerControl MIB, Telnet/SSH is not accessible through IPv4 "
+QA6,[COX][Puma6] Always return 0 when GPV the parameters under Device.WiFi.Radio.10100.Stats.
+QA6,"[Language][German]When testing 955791: LGI_GERMAN_Guest network_001&955793: LGI_GERMAN_Port forwarding_001, it has 3 problems."
+QA6, In Safari Browser the captcha is not displayed
+QA2,[Soak] [Puma6] The CCR of MTA dropped to 0 after 4.75 days soak test.
+QA6, Configured "Connection Speed & Duplex Mode" Settings are not taking effect in GUI under Gateway > Hardware > Ethernet > Lan Ethernet Port
+QA6,[Stress] The connection of CPE and the call session will interrupt after long time data traffic with phone call in PC20 load
+BLR,[CHILE]: Unable to see stutter tone Freq using AI5120
+QA3&7,[RDKB][Hotspot] Modem didn't send ICMP PING packets to WLAN GW if both PrimaryRemoteEndpoint and SecondaryRemoteEndpoint are configured
+QA4,Clone 38360 to AR01.01.086.01  [CM regression]The IPv4 packets with specified TOS should be dropped.
+QA4,[RDK-B] IPv6 downstream TCP throughput degredation
+QA6,[Puma7] IPv4 IP Filter function is failed when "DstPortStart" and "DstPortEnd" set to "All".
+QA3&7,"[RDKB] Modem auto-reboot 4 times, and found ""mmc0: Timeout waiting for hardware interrupt"" and ""Kernel panic - not syncing: Out of memory: system-wide panic_on_oom is enabled"" in ATOM"
+QA3&7,[MTK][IOT][TG2482] Quite some devices dis-associated/re-associated with modem many times during Wi-Fi IOT Real Application Test with advanced features enabled.
+QA6,"[Language][German]When testing 955789: GERMAN_Modem mode_001, it has 1 error on Wireless wizard page."
+QA6,"[LGI][UI]: Guest Network shows ¡°Connected To¡± 5Ghz,even when 5Ghz is disabled."
+QA6,Clone 42149 to AR01.01.086.X [RDKB][Puma7][MoCA]Long term TCP/UDP traffic will always be broken and can not be established again unless reboot the DUT
+QA2,[TM8202] Speedtest does not work when CM comes online with IPv6.
+QA6,[RDKB]TG3442 with load AR01.01.92.01 failed to connect with ACS server
+QA6,[LGI]:User is not able to add more than 16 rules in MAC Filtering Page
+QA3&7,[Ookla] Laptop connect 2.4G SSID by buffalo wireless bridge can't ping its gatway after serverl times Ookla speed test.
+QA4,[10k]Timeout reported when walk the whole mib tree via CM/MTA IP address when modem in PSM 1x1 mode
+QA3&7,Clone 41241 to AR01.01.086.X [RDKB] Guest SSID status shown as "LowerLayerDown" when home SSID is disabled
+QA3&7,[Haleakala][Hotspot] GW didn't send ICMP packet to current radius server
+QA4, Change the value of mibs arrisCmDoc30SetupPowerSaveMode and arrisMtaDevPwrSupplyDataShutdownTime will not take effect when modem entering psm mode.
+QA3&7,[RDKB][Hotspot] DHCPv6 option 18/37 are inserted incorrectly
+QA6,[Puma7] Wrong value of Device.NeighborDiscovery.InterfaceSetting.1.Interface
+QA3&7,[Haleakala][Hotspot] Setting arrisRouterSoftGreWanControllerProvisionedSecondaryIpAddress.1 with IPv6 address failed
+BLR,[DST] PC20 MTA time rule "GMT+TimeAdj+1" does not work
+QA6,[TWC][Puma6]The value of "Device.Firewall.AdvancedLevel" can NOT be writable.
+BLR,[Germany]: Off-hook warning tone default value is always showing as 0
+QA3&7,[RDKB] The 11ac client simulated by veriwave is failed to connect to TG3452A on load AR01.01.86.1.5
+QA6,[LGI][UI]:User able to see only Prefix length details without full IPV6 address in IPV6 Port filtering table.
+QA6,[TWC][Puma6]The value of "Device.Firewall.Level.{i}.Order" can NOT be writable.
+QA6,[Puma7] IPv4 IP Filter function is failed when "DstStartAddr" and "DstEndAddr" set to "All".
+QA2,[TW][Security][DDoS] SNMP has no response when wan0 under DS direction IPv4 flooding attack
+QA6,"[LGI][UI]:Source and Destination IP address, always appears as ""ALL"""
+QA3&7,"Clone 34948 to Haleakala: [HotSpot] Associated Veriwave client can't get IP address from dhcp server , after that other wifi clients failed to get IP address from dhcp server"
+QA6,"  :- Need to hide eRouter and WiFi related pages in modem mode, when CM is configured to Bridge mode via bootfile (TLV202.1 set to 0)"
+QA6,[TWC][Puma6]The value of "Device.Firewall.Level.{i}.DefaultLogPolicy" can NOT be writable.
+QA6,Clone 42149 to AR01.01.086.01.x:  [RDKB][Puma7][MoCA]Long term TCP/UDP traffic will always be broken and can not be established again unless reboot the DUT
+QA6,[Speedtest] GUI "Speedtest" page is not displaying in Chrome browser
+QA6,[TWC][Puma6]Device.DHCPv4.Server.Pool.{i}.StaticAddress.{i}.Enable.should writable.
+QA6,DUT can not connect to IPv4 ACS server.
+QA3&7,[RDKB][LG][ATM] The bss weights can be set a value between 0?4 and more than 100 on load AR01.01.92.01
+QA6,[Puma7]The WebGUI format will change from VM's to UPC's automatically after login WebGUI.
+QA6,[RDK-B] [MoCA] mocaIfRFChannel MIB reports different frequency from MoCA CurrentOperFreq
+QA2,[TW][Security][DDoS] Modem CPU usage is 100% and modem is OOS when hotspot WLAN GW is under US direction TCP SYN flooding attack
+QA3&7,[MTK][Band Steering] Sometimes iPhone6 Plus can¡¯t be steered to 2.4G and disconnect from TG1652 when 5G RSSI < RssiLow-delta.
+QA6,"[LGI][English] When remove the RF feed and reboot the modem, DUT can not open 192.168.100.1 on Wired client."
+BLR,[Vodafone] arrisMtaDevWBSLIC MIB Functionality is not working as expected.
+QA4,[CM8200A]: Modem does not come online when cmDocsis31Capable MIB is set to False using cBR8
+QA6,[TWC][Puma6]The value of "Device.Firewall.Level.{i}.PortMappingEnabled" can NOT be writable.
+QA6," In Connection > Status page, footer is not displayed properly [Clone of PD 41150]"
+QA4,[CM basic function]In bridge mode more than one connected PC can get IP addresses.
+QA6,[Internet->Port Mapping] LAN IP Address of some added lines becomes 0.0.0.0 after apply settings
+BLR,[PC20]The modem crash and reset after a 3 wc.
+QA6,"[Puma7][MIB] Accordig to KIP1606-REQ-MON-24, the last three bytes of arrisRouterRDKIpv4LanClientStaticMAC should be set to 0 for KDG"
+QA3&7,[Haleakala][Hotspot] status of arrisRouterSoftGreWanStatus is always down even if GRE tunnel is established
+QA3&7,[Haleakala][Hotspot] WNIC can't connect to GW via WPA2Enterprise/AES
+QA6,"[Language][Deutsh]When testing First Install page will display with GERMAN language, it has an error and drop on Welcome page. "
+QA6,[RDKB]Both lan and wlan clients can't access internet
+QA6,[TWC][Puma6] - The FQDN ACS URL obtained via DHCP option 43/125 or DHCPv6 option 17 is not written to both the v4 location and v6 location.
+QA6,Device.DHCPv6.Server.Pool.{i}.ClientNumberOfEntries display incorrect value when disconnect the CPE from the DUT.
+QA2,[TW][Security][DDoS] TR69 CWMP port 7547 is filtered on erouter0 when erouter0 is under DS direction IPv4 flooding attack
+QA4,[Torture][Puma7]Modem cm ip can't pingable and snmp timeout after "RF Cuts" 72 cycles
+BLR,"[PC20]Set mib sipCfgRtpInactivityTimer to 0, when RTP/RTCP dropped, it still play a NU tone."
+QA2,[Wired Throughput] Low throughput performance under GRE tunnel
+BLR,[PC20]MTA cannot get ipv6 address.
+QA4,"[PNM] When setting Mib docsPnmBulkFileControl to deleteFile, the file is deleted from docsPnmBulkFileTable, but still exist in memory."
+QA3&7,[RDKB]Some WiFi objects don't map to snmp mibs and arrisRouterBssSecurityMode mapping value is wrong
+QA3&7,[Haleakala][Hotspot] Need clarification: currently modem stops sending ICMP ping to GRE server if there's no client connected to the hotspot SSID
+QA2,[PUMA7][Auto Download] DG3450/TG3452 occasionally doesn't come up after upgrading with AR01.01.090 simg on fused units
+QA6,[Multi-Language]The translation of "PAGE_PORT_MAPPING_PORT_TRIGGERING_ADD_POPUP_TITLE" is not consistent with <DOCSIS 3.1 DE - Gateway Lanuguage - Version 13>
+QA4,[EM]Sometimes modem cannot enter EM 1x1 mode at the first try when the entry thresholds are met (3/5 times reproduced)
+QA2,[CT][Security][DDoS] Wireless LAN client cannot ping WAN host when GW/MTA is under DS direction IPv4 flooding attack
+QA6,[TWC][Puma6]The parameter "Device.DHCPv4.Server.Pool.200.DNSServers" value displays empty.
+QA6,"[RDKB][MIB] ""Wrong type"" returned when snmpget mib arrisRouterRDKLanClientCount, arrisRouterRDKIpv4LanClientStaticIPAddr and arrisRouterRDKIPv4LanClientIPAddr"
+QA3&7,[MTK]¡°Segmentation fault¡± was caught in ARM port during modem reboot or set default.
+QA3&7,[DG1670A/TW] Some devices dis-associate/associate many times in IOT Real Application Testing with advanced features enabled.
+BLR,"[puma7][Ring waveform]:during the ring, change the ring waveform(arrisMtaDevEndPntRingingWaveform.1) from trapezoidal to sinusoidal via snmpset, the ring waveform will change to sinusoidal."
+QA6, The GUI become not accessible and also ping 192.168.0.1 failed
+QA6,[Puma7][GW] arrisRouterLanEtherPortSpeed was still 100 when set it to 1000 and change arrisRouterLanEtherPortAuto from "manualConfigure" to "autoNegotiate"
+QA6,"[TWC] DUT store the ACS URL based on how it obtain it, not based on what kind of URL it is."
+QA3&7,"[MTK][Band Steering] Enable Band Steering, the 5GHz radio SHOULD be changed to match the 2.4GHz radio settings automatically."
+QA4,[Clone from PD33216] The function of Enhanced Software Loading doesn't work
+QA3&7,[MTK][IOT][TG1652] Most devices dis-associate/re-associate at the same time after 6 hours IOT Real Application Testing with advanced features enabled.
+QA3&7,[RDKB] Some devices disconnected and didn't reconnect again during IOT Real Application Testing with advanced features enabled. (Bandsteering)
+QA3&7,[RDKB][Hotspot] Modem didn't send ICMP PING packets to WLAN GW until wireless client connected and acquired the IP address
+QA6,[Puma7] TR-069 Connection Request showing IPv4 address when CM is in dualStack mode and GW is in IPv4 only mode
+QA6," In Safari Browser the EDIT Button is not displayed properly in the Parental Control> Managed Sites, Managed Services, Managed Devices page and Advanced > Port Forwarding page."
+QA3&7,[RDKB][veriwave]Veriwave interop: 5G 11ac 80 MHz MCS9 NSS3 WLAN to LAN TCP Goodput sometimes as low as 0.
+QA3&7,"[WECB][Puma6]SNM walk mib hneMib, ""Exception Caught""(Process name: gwsa_thread_0) was caught in ARM and mib browser response ""Generic error """
+QA6,[LGI][English] Incorrect translation of strings in Port forwarding.
+QA2,[Wired Throughput] Low throughput performance of TCP with IPSec
+QA6,[Vodafone][Phone Numbers]"Operational" word is not getting translated in German and Turkish under Phone->Phone Numbers page
+QA4,Expected event 69010700 was not genarated when CM rejects inapplicable loads via HTTP download
+QA6,The parameter Device.MoCA.Interface.{i}.AssociatedDevice.{i}.PreferredNC will display incorrect value when change PreferredNC of the MoCA device.
+QA6,Some pages and sub tabs are taking long time to load
+QA6,[LGI][UI]: user is able to create duplicate rules on IPV4 and IPV6 Port Filtering page.
+QA6,"[Language][Deutsch]When testing First Install page will display with GERMAN language, it has an error on the Perfect Page . "
+QA6,[IE V11] Router Time is not updating in GUI under Gateway > Time
+QA6,[RDKB][Puma7][MoCA]MoCA Beacon Power Reduction can't be configured via GUI
+QA2,[Soak] [Puma7] Modem lost the eRouter IP after 12 hours soak test.
+QA6,"[Puma7][eRouter] When arrisRouterLanEtherPortAuto is ""autoNegotiate"", arrisRouterLanEtherPortDuplex and arrisRouterLanEtherPortSpeed should not work"
+QA4,"[PNM] When Mib docsPnmCmDsOfdmSymTrigEnable/ docsPnmCmDsOfdmMerMarMeasEnable is enabled, test file can't be transmitted to the server."
+QA3&7,Clone PD 19880 from P6 RoW to Charter - [HotSpot][Throughput] TG1652G/NA SNMP timeout during hotspot throughput testing and fix the route issue of ping to RIP interface
+QA2,[XREF PD25802] Implement 35738 to P6 Charter branch: Time server vulnerable to OS command injection
+QA3&7,"[RDKB] Modem auto-reboot several times, and found ""HW_MBOX_KERNEL_ERROR[hwMbox_sendOpcode:1877]: cid 7: timeout expired!"" in ARM"
+QA6,[TWC][Puma6]The value of "Device.Firewall.Level.{i}.Alias" can NOT be writable and the value is empty.
+QA6,[Status&Support->Diagnostic Utility] Usually failed to update the test result via refresh the page after input Ping/Traceroute Target and click button "Start Test"
+QA3&7,[Haleakala][Hotspot] GRE Failover behavior is not proper
+QA2,[Soak] [Puma6] Obvious ATOM memory leak 22.5M per day is found during soak tests.
+QA2,[Wired Throughput][Puma7] Modem Downstream  TCP with window scale 8 throughput curve has 30 seconds jitter cycle and  about 150Mbps jitter range.
+QA6,[cusadmin]Unable to save the 2.4/5GHz Wireless Advanced Settings via cusadmin account
+QA3&7,"[RDKB]2.4G AP scan SupportedStandards should be b,g,n instead of g,n"
+QA6,[Puma7]Gateway send event code "1 BOOT" instead of "0 BOOTSTRAP" in the inform after the ACS URL was changed via TLV202.2
+QA3&7,[Haleakala][WMM]Voice UDP flow does not have higher priority than video UDP flow for 5G wifi client
+BLR,"New TR-181 parameters'  3 numbers per TEL can be operational ,but  the accessorial  numbers were block."
+QA4,[SNMP] Event logs for BPI enable/disable are not updating in SNMPwalk (docsDevEventTable)
+QA3&7,[RDKB][3442] The UDP traffic of 2.4G in upstreams is much lower than downstrams when enable 4 ssids
+QA6,[Puma7][DHCPv6]Win 7 CPE will send release message at the second T1 time even if the first T1 renew successfully.
+QA6,[cusadmin] Configured "Mode" value from drop down lists is not taking effect for both 2.4GHz & 5GHz GUEST Wi-Fi Network
+QA6,Clone from 27972-[GW][DSlite]The LAN CPE IPv4 DHCP lease time is 20s after DS-lite enabled.
+QA3&7,[RDKB] 5G SSID only works in 20MHz if set wireless mode to 802.11n via GUI
+QA6,[RDK-B] [WEBGUI] default security mode incorect and Channel/BW cannot be select
+BLR,The Main AP or Extender should support store and set its time zone based on configuration from the SURFboard mAX Mobile Application during the on-boarding process.
+QA2,[XREF PD48279][Mobile APP][Security] Implement PD 48293 in AR01.02: Further Improve LCA Authorization
+QA3&7,Clone 49343 to AR01.01.106.x:  [RDK-B]: Wi-Fi is dropping off completely after disabling the band-steering from mobile app and GUI [CRM 787]
+BLR,Bluetooth pairing fail during process mAX mobile application over bluetooth.
+BLR,Clone 41060 to AR01.01.x: [345X][Mobile App][Security] LCA should not print sensitive info (password) to log file or session file
+QA3&7,[HNC Client Steering] mib hncSteerSteeringTypeControl cannot persist after modem reboot
+QA3&7,[HNC Client Steering] "Steering History" page always shown steering type as "BSS Transition Request Command" even if the actually type is "BLACKLIST"
+QA3&7,"[HNC Client Steering]After snmp walk mib hncSteeringMibObjects several times, some hnc mib value auto change to false and snmp set mib hncSteerSteeringTypeControl returns ""Undo failed"""
+QA3&7,[AHNC]Configure HNE firmware upgrade with incorrect UpdateFWFilename still can upgrade success.
+QA3&7,[AHNC]No Link Quality and RSSI Average in Topology Details of Topology tree > SSID > WiFi Client
+QA3&7,[HNC Client Steering]Process HncInit be restarted during WiFi client be steered from GW to HNE
+QA3&7,[HNC][Client Steering]The client with traffic be steered during channel utilization triggered Steer
