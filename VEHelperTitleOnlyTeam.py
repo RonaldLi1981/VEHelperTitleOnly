@@ -12,7 +12,6 @@ import datetime
 import tensorflow as tf
 from tensorflow import keras as k #, Bidirectional, LSTM, Dropout, Dense
 from tool_mib_word_split import sentenceWordSplit
-
 from setting import backend_work_path
 
 # MONITOR WINDOW
@@ -123,11 +122,7 @@ class VEHelper:
         if (SWITCH_EVALUATE): 
             self.catLabels_test = catLabels[training_data_qty:]
 
-
-#for catLabel in catLabels:
-#    print (catLabel)
-
-
+    # Model
     def build_model(self, b_load_existing_model = False, str_load_model_pathname = ''):
         print ('building model ...')
         self.model = k.Sequential()
